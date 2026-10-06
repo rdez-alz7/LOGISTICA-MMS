@@ -1,0 +1,6 @@
+{
+  "name": "LOG MMS — Sistema de Gestão e Rastreio de Alunos",
+  "description": "Sistema completo para gestão e rastreio de viagens, alunos, obreiros, documentos e relatórios oficiais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

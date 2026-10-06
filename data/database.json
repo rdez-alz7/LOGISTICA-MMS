@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_initial",
+      "name": "Vitor",
+      "username": "vitor",
+      "email": "vitoraluizio151107vt@gmail.com",
+      "passwordHash": "$2b$10$xk4nJ.Lg3kAHpHhqN6CuSeAsyMjDXP5Gauwz5kSLpIg0ZWUWBiBfy",
+      "role": "ADMIN_HOST",
+      "status": "ATIVO",
+      "createdAt": "2026-10-06T01:14:15.370Z",
+      "updatedAt": "2026-10-06T01:14:15.371Z"
+    }
+  ],
+  "alunos": [
+    {
+      "id": "aln_1",
+      "nome": "Gabriel Pereira Rocha",
+      "obreiroId": "obr_1",
+      "obreiroNome": "João Silva",
+      "status": "ATIVO",
+      "createdAt": "2026-10-01T01:14:15.372Z",
+      "updatedAt": "2026-10-06T01:14:15.372Z"
+    },
+    {
+      "id": "aln_2",
+      "nome": "Beatriz Cristina Mendes",
+      "obreiroId": "obr_2",
+      "obreiroNome": "Marcos Oliveira",
+      "status": "ATIVO",
+      "createdAt": "2026-10-02T01:14:15.372Z",
+      "updatedAt": "2026-10-06T01:14:15.372Z"
+    },
+    {
+      "id": "aln_3",
+      "nome": "Matheus Henrique Alves",
+      "obreiroId": "obr_3",
+      "obreiroNome": "Lucas Santos",
+      "status": "CONCLUÍDO",
+      "createdAt": "2026-09-24T01:14:15.372Z",
+      "updatedAt": "2026-10-06T01:14:15.372Z"
+    },
+    {
+      "id": "aln_4",
+      "nome": "Larissa Souza Lima",
+      "obreiroId": "obr_1",
+      "obreiroNome": "João Silva",
+      "status": "ATIVO",
+      "createdAt": "2026-10-04T01:14:15.372Z",
+      "updatedAt": "2026-10-06T01:14:15.372Z"
+    }
+  ],
+  "obreiros": [
+    {
+      "id": "obr_1",
+      "nome": "João Silva",
+      "email": "joao.silva@mms.org",
+      "funcao": "Pastor Regional",
+      "status": "ATIVO",
+      "createdAt": "2026-10-06T01:14:15.371Z",
+      "updatedAt": "2026-10-06T01:14:15.371Z"
+    },
+    {
+      "id": "obr_2",
+      "nome": "Marcos Oliveira",
+      "email": "marcos.oliveira@mms.org",
+      "funcao": "Missionário Coordenador",
+      "status": "ATIVO",
+      "createdAt": "2026-10-06T01:14:15.371Z",
+      "updatedAt": "2026-10-06T01:14:15.371Z"
+    },
+    {
+      "id": "obr_3",
+      "nome": "Lucas Santos",
+      "email": "lucas.santos@mms.org",
+      "funcao": "Obreiro de Apoio",
+      "status": "ATIVO",
+      "createdAt": "2026-10-06T01:14:15.371Z",
+      "updatedAt": "2026-10-06T01:14:15.371Z"
+    },
+    {
+      "id": "obr_4",
+      "nome": "Ana Paula Ferreira",
+      "email": "ana.paula@mms.org",
+      "funcao": "Supervisora de Polo",
+      "status": "ATIVO",
+      "createdAt": "2026-10-06T01:14:15.371Z",
+      "updatedAt": "2026-10-06T01:14:15.371Z"
+    }
+  ],
+  "viagens": [
+    {
+      "id": "vgm_1",
+      "alunoId": "aln_1",
+      "alunoNome": "Gabriel Pereira Rocha",
+      "obreiroNome": "João Silva",
+      "origem": "Belo Horizonte - MG",
+      "destino": "São Paulo - SP",
+      "dataSaida": "2026-10-12",
+      "horarioSaida": "08:30",
+      "dataChegada": "2026-10-12",
+      "horarioChegada": "16:00",
+      "empresa": "Viação Cometa",
+      "numeroLocalizador": "CMT-884920",
+      "localEmbarque": "Terminal Rodoviário Gov. Israel Pinheiro",
+      "localDesembarque": "Terminal Rodoviário Tietê",
+      "status": "EM_ANDAMENTO",
+      "observacoes": "Viagem para módulo de estudos avançados.",
+      "createdAt": "2026-10-04T01:14:15.372Z",
+      "updatedAt": "2026-10-06T01:14:15.372Z"
+    },
+    {
+      "id": "vgm_2",
+      "alunoId": "aln_2",
+      "alunoNome": "Beatriz Cristina Mendes",
+      "obreiroNome": "Marcos Oliveira",
+      "origem": "Campinas - SP",
+      "destino": "Curitiba - PR",
+      "dataSaida": "2026-10-15",
+      "horarioSaida": "22:00",
+      "dataChegada": "2026-10-16",
+      "horarioChegada": "06:30",
+      "empresa": "Auto Viação Catarinense",
+      "numeroLocalizador": "CAT-19402",
+      "localEmbarque": "Rodoviária de Campinas",
+      "localDesembarque": "Rodoferroviária de Curitiba",
+      "status": "PLANEJADA",
+      "observacoes": "Apresentação no pólo sul.",
+      "createdAt": "2026-10-05T01:14:15.372Z",
+      "updatedAt": "2026-10-06T01:14:15.372Z"
+    }
+  ],
+  "documentos": [],
+  "user_invitations": [],
+  "auditoria": [
+    {
+      "id": "aud_1791249255371",
+      "userId": "system",
+      "userName": "Sistema",
+      "userRole": "SISTEMA",
+      "acao": "BOOTSTRAP_ADMIN",
+      "entidade": "User",
+      "entidadeId": "usr_admin_initial",
+      "detalhes": "Administrador inicial vitor configurado",
+      "timestamp": "2026-10-06T01:14:15.371Z"
+    },
+    {
+      "id": "aud_1791249266112_r1t03",
+      "userId": "usr_admin_initial",
+      "userName": "Vitor",
+      "userRole": "ADMIN_HOST",
+      "acao": "LOGIN",
+      "entidade": "User",
+      "entidadeId": "usr_admin_initial",
+      "detalhes": "Login efetuado com sucesso por vitor",
+      "timestamp": "2026-10-06T01:14:26.112Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "aud_1791249268450_9qv9z",
+      "userId": "usr_admin_initial",
+      "userName": "Vitor",
+      "userRole": "ADMIN_HOST",
+      "acao": "LOGIN",
+      "entidade": "User",
+      "entidadeId": "usr_admin_initial",
+      "detalhes": "Login efetuado com sucesso por vitor",
+      "timestamp": "2026-10-06T01:14:28.450Z",
+      "ip": "127.0.0.1"
+    }
+  ]
+}
